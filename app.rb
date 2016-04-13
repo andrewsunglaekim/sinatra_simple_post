@@ -7,7 +7,7 @@ get '/' do
   erb :index
 end
 
-post '/some_path' do
+post '/add_name' do
   first_names << params[:first_name]
   redirect "/"
 end

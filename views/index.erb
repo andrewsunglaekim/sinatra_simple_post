@@ -1,6 +1,9 @@
+<h1>All Names</h1>
 <% @first_names.each do |name| %>
   <div><%= name %></div>
 <% end %>
-<form action="some_path" method="post">
+<h2>Enter New Name Here and Hit Enter</h2>
+<form action="add_name" method="post">
   <input name='first_name'>
+  <input type="submit" value="Add First Name"
 </form>
